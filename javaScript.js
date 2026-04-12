@@ -11,7 +11,7 @@ function makeRows(rows, cols) {
   };
 };
 
-makeRows(16, 16);
+// makeRows(16, 16);
 
 document.getElementById("changeQuantity").addEventListener("click", function() {
     let newRows = prompt("How many rows do you want?");
